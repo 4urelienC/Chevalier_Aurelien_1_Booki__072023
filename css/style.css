@@ -16,6 +16,10 @@
 body {
     display: flex;
     justify-content: center;
+    /* Width: Fixed (1,440px);
+    Height: Hug (1,828.52px);
+    Gap: 30px; */
+    margin-top: 0px;
 }
 
 .main-container {
@@ -53,6 +57,69 @@ body {
     color: var(--main-bg-color)
 }
 
+/****** Banner ***********/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    Width: 1440px;
+    Height: 79px;
+    
+}
+
+.logo_title {
+    Width: Hug (161.09px);
+    Height: Hug (79px);
+    Padding: 30px, 50px, 30px, 50px;
+    Gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_title1 {
+    width: 61.09px;
+    height: 19px;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+A{text-decoration:none;}
+
+.hebergements-link:link {
+    text-decoration:none;
+    margin: 0px 30px 0px 30px;
+    padding-top: 17px;
+}
+
+.hebergements-link:hover {
+    margin: 0px 30px 0px 30px;
+    color:#0065FC;
+    padding-top: 15px;
+    border-top: 2px solid #0065FC;
+}
+
+.activités-link:link {
+    text-decoration:none;
+    margin: 0px 30px 0px 30px;
+    padding-top: 17px;
+}
+
+.activités-link:hover {
+    margin: 0px 30px 0px 30px;
+    color:#0065FC;
+    padding-top: 15px;
+    border-top: 2px solid #0065FC;
+}
+
+/****** Info group ***********/
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -71,6 +138,11 @@ body {
     width: 65%;
 }
 
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
