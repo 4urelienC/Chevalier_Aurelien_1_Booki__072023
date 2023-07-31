@@ -67,9 +67,9 @@ body {
 }
 
 .logo_title {
-    Width: Hug (161.09px);
-    Height: Hug (79px);
-    Padding: 30px, 50px, 30px, 50px;
+    /* Width: 161.09px;
+    Height: 79px; */
+    Padding: 30px 0px 30px 0px;
     Gap: 10px;
     display: flex;
     align-items: center;
@@ -119,22 +119,22 @@ A{text-decoration:none;}
 .info_group {
     display: flex;
     flex-direction: column;
-    Width: Fill (1,340px);
-    Height: Hug (281px);
+    /* Width: Fill (1,340px);
+    Height: Hug (281px); */
     Gap: 35px;
 }
 
 .headline {
-    Width: Fill (1,340px);
-    Height: Fixed (53px);
+    /* Width: Fill (1,340px);
+    Height: Fixed (53px); */
     Gap: 8px;
 }
 
 .search_bar {
     display: flex;
     flex-direction: row;
-    Width: Fixed (377px);
-    Height: Fixed (49px);
+    /* Width: Fixed (377px);
+    Height: Fixed (49px); */
     padding: 15px;
     Border: 1px;
     Gap: 0px;
@@ -197,7 +197,6 @@ A{text-decoration:none;}
     flex-direction: row;
     align-items: center;
     /* Width: 758px; */
-    Width: hug;
     Height: 50px;
     Gap: 15px;
 }
@@ -212,8 +211,8 @@ A{text-decoration:none;}
     flex-direction: row;
     background-color: white;
     align-items: center;
-    Width: Hug;
-    Height: Fixed;
+    /* Width: Hug;
+    Height: Fixed; */
     border-radius: 25px;
     Border: solid 2px;
     border-color: #D9D9D9;
@@ -232,8 +231,8 @@ A{text-decoration:none;}
     display: flex;
     flex-direction: row;
     align-items: center;
-    Width: Fill;
-    Height: Fixed 24px;
+    /* Width: Fill;
+    Height: Fixed 24px; */
     Gap: 10px;
 }
 
