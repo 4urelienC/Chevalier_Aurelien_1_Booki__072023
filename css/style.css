@@ -62,7 +62,7 @@ body {
 .banner {
     display: flex;
     justify-content: space-between;
-    Width: 1440px;
+    max-width: 1440px;
     Height: 79px;
 }
 
@@ -168,10 +168,30 @@ A{text-decoration:none;}
     border-color: var(--main-bg-color);
 }
 
-.recherche {
+/* form {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    Height: 48px;
+    width: 180px;
+} */
+
+input {
+    width: 191px;
+    Height: 46px; 
     font-size: 18px;
     font-weight: bold;
+    font-style: Black;
+    border: 0px dotted;
+    margin-left: 25px;
 }
+
+
+/* .recherche {
+    font-size: 18px;
+    font-weight: bold;
+} */
 
 .search_button {
     display: flex;
@@ -190,20 +210,34 @@ A{text-decoration:none;}
     font-weight: bold;
 }
 
-
-
 .filter_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    /* Width: 758px; */
+    Height: 50px;
+}
+
+.filter_title {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.filter_font {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.filter_assemble {
     display: flex;
     flex-direction: row;
     align-items: center;
     /* Width: 758px; */
     Height: 50px;
     Gap: 15px;
-}
-
-.filter_font {
-    font-size: 18px;
-    font-weight: bold;
 }
 
 .filter_button {
@@ -366,13 +400,13 @@ A{text-decoration:none;}
     margin-bottom: 5px;
 }
 
-/****** Populaires ***********/
+/****** Activity ***********/
 
 .activity {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    width: 1340px;
+    max-width: 1340px;
     Height: 559.02px;
     box-sizing: border-box;
     gap: 30px;
@@ -390,6 +424,7 @@ A{text-decoration:none;}
     display: flex;
     flex-direction: column;
     Width: 23%;
+    min-width: 20%;
     Height: 439px;
     gap: 0px;
 }
@@ -427,7 +462,8 @@ footer {
 }
 
 .a_propos {
-    width: 33%;
+    width: 32%;
+    margin-left: 15px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -435,6 +471,12 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    
+    .filter_bar {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
